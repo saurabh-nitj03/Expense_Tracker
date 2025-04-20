@@ -3,7 +3,7 @@ import { Container, Form, Button, Alert } from 'react-bootstrap';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = "https://expense-tracker-backend-jui1.onrender.com";
 
 function Login({ login }) {
   const [formData, setFormData] = useState({
