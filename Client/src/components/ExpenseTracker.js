@@ -6,7 +6,7 @@ import { FaMicrophone, FaFileExcel, FaEdit, FaTrash } from 'react-icons/fa';
 import * as ExcelJS from 'exceljs';
 import { saveAs } from 'file-saver';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = "https://expense-tracker-backend-jui1.onrender.com";
 
 // Set up axios with authentication
 axios.interceptors.request.use(
