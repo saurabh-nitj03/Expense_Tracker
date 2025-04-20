@@ -11,7 +11,10 @@ const User =require('./model/userSchema');
 const Expense = require ('./model/expenseSchema');
 
 const app = express();
-app.use(cors());
+app.use(cors(
+  {origin:'*',
+   credentials: true}
+));
 app.use(bodyParser.json());
 
 // MongoDB Connection
